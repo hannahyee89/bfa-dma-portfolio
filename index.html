@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>hyeeportfolio</title>
+<link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+<style>
+.myDiv{
+background-color: #BDCCF2;
+text-align: center;
+}
+body {
+    font-family: 'EB Garamond';font-size: 22px;
+    text-align: center;
+}
+p{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+*{box-sizing: border-box}
+
+.column {
+float: left;
+ width: 24%;
+ padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="twoD.html">2D Works</a></li>
+  <li><a href="threeD.html">3D Works</a></li>
+  <li><a href="coding.html">Coding Works</a></li>
+  <li><a href="misc.html">Misc.</a></li>
+  <li><a href="about.html">ABOUT</a></li>
+  
+</ul>
+<div class=myDiv>
+<h1>Hannah Yee</h1>
+</div>
+<p>BFA DMA Portfolio | Fall 2026 <br>
+-=-=-=-=-=-=-<br>
+Welcome to my HTML portfolio! Many of my works shown here are made with Photoshop, Illustrator, Blender, Maya, HTML, p5.js, and Premiere.<br>
+-=-=-=-=-=-=-<br>
+I have included works from ART 74, ART 75, ART 101, ART 2, and ART 15.
+<br>
+
+<div class = "row">
+  <div class = "column"> 
+  <a href="twoD.html"><img src="img/flower_sphere.png" style="width:250px; height:250px; object-fit: cover;"></a></p>
+  <a href="twoD.html">2D WORKS</a>
+  </div>
+  <div class = "column">
+  <a href="threeD.html"><img src="img/spaceFish_0041.png" style="width: 250px; height: 250px; object-fit: cover"></a></p>
+  <a href="threeD.html">3D WORKS</a>
+</div>
+  <div class = "column">
+  <a href="coding.html"><img src="img/fishing_code_thumbnail.png" style="width: 250px; height: 250px; object-fit: cover"></a></p>
+  <a href="coding.html">CODING WORKS</a>  
+</div>
+  <div class = "column">
+  <a href="misc.html"><img src="img/chair_thumbnail.png" style="width: 250px; height: 250px; object-fit: cover"></a></p>
+  <a href="misc.html">MISCELLANEOUS WORKS</a>
+
+</div>
+</div>
+  </body>
+</html>
